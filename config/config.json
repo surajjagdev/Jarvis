@@ -19,12 +19,12 @@
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
-    "username": "i3b74t4ay4mqyr0w",
-    "password": "q7mx0v84a1t6sjvb",
+    "username": "iwkrofyjkp3cbwir",
+    "password": "opfyn5xoqycfe2td",
 
-    "database": "zkov2wtdr8awszno",
+    "database": "qmhfn7puytuz0uw9",
 
-    "host": "a07yd3a6okcidwap.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "host": "h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "dialect": "mysql"
   }
