@@ -21,7 +21,7 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
 // var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3306;
 
 // IO dependencies
 // var http = require('http').Server(app);
