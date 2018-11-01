@@ -5,7 +5,7 @@ var app = express();
 var server = http.createServer(app);
 var io = require('socket.io').listen(server);
 server.listen(4300);
-console.log('listening' + server.listen(4300));
+console.log('listening' + server.listen(3306));
 
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
@@ -21,7 +21,7 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
 // var app = express();
-var PORT = process.env.PORT || 3306;
+var PORT = process.env.PORT || 3000;
 
 // IO dependencies
 // var http = require('http').Server(app);
