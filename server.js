@@ -1,11 +1,11 @@
 require('dotenv').config();
 var express = require('express');
-var http = require('http');
+//var http = require('http');
 var app = express();
-var server = http.createServer(app);
-var io = require('socket.io').listen(server);
-server.listen(4300);
-console.log('listening' + server.listen(3306));
+//var server = http.createServer(app);
+//var io = require('socket.io').listen(server);
+//server.listen(4300);
+//console.log('listening' + server.listen(3306));
 
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
@@ -27,12 +27,12 @@ var PORT = process.env.PORT || 3000;
 // var http = require('http').Server(app);
 // var io = require('socket.io')(http);
 
-io.on('connection', function(socket) {
+/*io.on('connection', function(socket) {
   console.log('IO is connected');
   socket.on('chat message', function(msg) {
     io.emit('chat message', msg);
   });
-});
+});*/
 
 // http.listen(5000, function() {
 //   console.log('Socket is listening on *:' + 5000);
